@@ -37,7 +37,7 @@ header{
         line-height: 70px;
        }
        main{
-        height: 150vh;
+        height: 100vh;
         background-image:url(images/IMG_8226.JPG);
         background-repeat: no-repeat;
         background-size: cover;
@@ -50,7 +50,7 @@ header{
        }
        main h1{
         color:#F8F8F8;
-        font-size: 45px;
+        font-size: 40px;
         text-align: center;
         margin: 5px;
         }
@@ -86,6 +86,7 @@ header{
     }
 
     
+
 
 
 
