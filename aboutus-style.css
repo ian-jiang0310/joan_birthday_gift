@@ -74,11 +74,14 @@ header{
       /* 響應式設計 */
       @media screen and (max-widt:768px){
         .h1 {
-        font-size: 20px;
+        font-size: 15px;
         }
+        .mail p{
+        font-size: 10px
         .header ul {
         flex-direction: column;
 
       }
     }
+
     
