@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header,main,footer{
+    background-color: beige;
+}
+header{
+        background-color: rgb(103, 77, 65,0.8);
+        height: 80px;
+        width: 100%;
+        position: fixed;
+       }
+        header h2{
+            color:#DFDCD5;
+            font-size: 24px;
+            position:absolute;
+            left:3vw;
+            top:0;  
+            line-height: 80px;
+       }
+       header a{
+        color:#DFDCD5;
+        text-decoration: none;
+       }
+       header a:hover{
+        text-decoration: underline;
+       }
+       header li{
+        display: inline;
+        margin-right: 4vw;
+       }
+       header ul{
+        position: absolute;
+        right: 3vw;
+        top: 0;
+        line-height: 80px;
+       }
+       main{
+        height: 100vh;
+        background-image:url(images/IMG_8226.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+       }
+       main h1{
+        color:#F8F8F8;
+        font-size: 45px;
+        text-align: center;
+        margin: 5px;
+        }
+
+        main p{
+        color:#F8F8F8;
+        font-size: 20px;
+        margin: 0px 100px 0px 100px;
+        }
+        footer{
+        background-color: #161D15;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        footer p{
+        color: #DFDCD5;
+        font-size: 15px;
+        }
+      /* 響應式設計 */
+      @media screen and (max-widt:768px){
+        .h1 {
+        font-size: 20px;
+        }
+        .header ul {
+        flex-direction: column;
+
+      }
+    }
+    
