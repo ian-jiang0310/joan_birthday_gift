@@ -42,8 +42,6 @@ header{
         background-repeat: no-repeat;
         background-size: cover;
        }
-        
-
         footer{
         background-color: #161D15;
         height: 4vh;
@@ -57,15 +55,5 @@ header{
         }
       /* 響應式設計 */
       @media screen and (max-widt:768px){
-        .h1 {
-        font-size: 20px;
-        }
-        .header ul {
-        flex-direction: column;
-
-        }
-        .mian{
-        height: 100vh;
-        }
-    }
+        
     
