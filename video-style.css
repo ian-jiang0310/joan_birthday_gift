@@ -41,7 +41,27 @@ header{
         background-image:url(images/IMG_4666.JPG);
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
        }
+
+        main a{
+        color:#2A4C65;
+        background-color:rgba(221, 207, 194,0.5);
+        font-size: 55px;
+        text-decoration: none;
+        border: 3px solid#2A4C65;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 10px;
+        }
+
+        main a:hover{
+            text-decoration: underline;
+        }
+
         footer{
         background-color: #161D15;
         height: 4vh;
@@ -57,4 +77,5 @@ header{
       @media screen and (max-widt:768px){
         
     
+
 
